@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(TARGET_DEVICE),sakura)
+ifeq ($(TARGET_DEVICE),daisy)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.display.color@1.0
